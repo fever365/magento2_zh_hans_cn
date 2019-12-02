@@ -5,12 +5,12 @@
 **Composer安装**
 ```
 cd <magento2 path>
-composer require benheart/magento2_zh_hans_cn:dev-master
+composer require benheart/magento_zh_hans_cn:dev-master
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
 **手动安装**
-- [下载 Magento2 中文包](https://github.com/benheart/magento2_zh_hans_cn/archive/master.zip)
-- 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/benheart/magento2_zh_hans_cn
+- [下载 Magento2 中文包](https://github.com/benheart/magento_zh_hans_cn/archive/master.zip)
+- 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/benheart/magento_zh_hans_cn
 - 在Magento2根目录执行命令：
 ```
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
@@ -47,7 +47,7 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 ### 卸载语言包
 ```
 cd <magento2 path>
-composer remove benheart/magento2_zh_hans_cn:dev-master
+composer remove benheart/magento_zh_hans_cn:dev-master
 ```
 
 ### 注意事项
